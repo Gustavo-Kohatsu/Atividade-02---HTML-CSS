@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade02 - CSS Interno</title>
+    <style>
+        body {
+            width: 100%;
+        }
+
+        .main-card-green {
+            background-color: #6BCA50;
+            width: 500px;
+            height: 500px;
+        }
+
+        .main-card-green .card-black {
+            background-color: #000000;
+            height: 50%;
+            width: 50%;
+        }
+
+        .card-black p {
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 141, 47);
+            font-size: 25px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .main-card-blue {
+            width: 50%;
+            height: 50vh;
+            background-color: rgb(138, 193, 229);
+        }
+
+        .card-violet {
+            width: 75vw;
+            height: 50%;
+            background-color: rgb(105, 13, 209);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-card-green">
+        <div class="card-black">
+            <p>
+                Parágrafo C
+            </p>
+        </div>
+    </div>
+    <div class="main-card-blue">
+        <div class="card-violet"></div>
+    </div>
+</body>
+
+</html>

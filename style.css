@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+}
+
+.main-card-burlywoord {
+    background-color: burlywood;
+    width: 60%;
+    height: 250px;
+}
+
+.main-card-burlywoord .card-tomato {
+    background-color: tomato;
+    height: 50%;
+    width: 50%;
+}
+
+.card-tomato p {
+    color: rgb(0, 0, 0);
+    background-color: skyblue;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.main-card-blue {
+    width: 75%;
+    height: 50vh;
+    background-color: rgb(27, 135, 172);
+}
+
+.card-red {
+    width: 50vw;
+    height: 10%;
+    background-color: rgb(179, 39, 34);
+}
